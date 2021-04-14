@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- start Quiz button -->
+    <div class="start_button"><button>Start The Quiz</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info_title"><span>Enter Your Information Then Select Quiz</span></div>
+        <div class="info_quiz">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="Enter Your First Name"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Enter Your Last Name">
+            </form>
+        </div>
+        <div class="buttons">
+            <button class="quit_button">Exit Quiz</button>
+            <button class="restart_button">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title"> Quiz Application</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!--  Question Count Number-->
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart_button">Replay Quiz</button>
+            <button class="quit_button">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!-- I've inserted only questions -->
+    <script src="js/questions.js"></script>
+
+    <script src="js/todo.js"></script>
+
+</body>
+
+</html>
+
+</html>
